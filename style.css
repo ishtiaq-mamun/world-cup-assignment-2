@@ -267,7 +267,7 @@ body {
 @media only screen and (max-width: 688px) {
     .top-container {
         width: 100%;
-        margin: 44px 20px 0 20px;
+        margin: 44px 20px 0 21px;
     }
 
     .header-section {
@@ -321,15 +321,100 @@ body {
 
 @media only screen and (max-width: 688px) {
     .middle-section-container {
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        margin-top: 130px;
-        margin-left: 140px;
-        margin-right: 140px;
+        height: 100%;
     }
 
-    .middle-section-part {
-        grid-gap: 24px;
-        grid-template-columns: repeat(1, auto);
+    /* side bar css */
+    .main-side-navigation {
+        background: #161616;
+        border-radius: 10px;
+        width: 210px;
+        margin-bottom: 24px;
+    }
+
+    .side-nav a {
+        display: flex;
+        text-decoration: none;
+        flex-direction: column;
+        margin: 16px;
+    }
+
+    /* player card responsive section */
+    .middle-section-playercard {
+        grid-gap: 16px;
+        grid-template-columns: repeat(1, 312px);
+    }
+
+    /* blog 1 css */
+    .main-multipal-player-column-one {
+        grid-column: 1 / 1;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
+    /* blog 2 css */
+    .main-multipal-player-column-two {
+        grid-column: 1/ 1;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
+    /* blog 3 css */
+    .main-multipal-player-column-three {
+        grid-column: 1 / 1;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
+    /* blog 4 css */
+    .main-multipal-player-column-four {
+        grid-column: 1 / 1;
+        grid-row: 1/1;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
+    /* blog 5 css */
+    .main-multipal-player-column-five {
+        grid-column: 1 / 1;
+
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
+    /* blog 6 css */
+    .main-multipal-player-column-six {
+        grid-column: 1 / 1;
+
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
+    /* blog 7 css */
+    .main-multipal-player-column-seven {
+        grid-column: 1 / 1;
+
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
+    /* blog 8 css */
+    .main-multipal-player-column-eight {
+        grid-column: 1 / 1;
+
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
+    /* blog 9 css */
+    .main-multipal-player-column-nine {
+        grid-column: 1 / 1;
+
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
     }
 }
 
