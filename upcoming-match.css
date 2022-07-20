@@ -1,0 +1,29 @@
+.blog-banner-heading {
+    margin: 53px 30px;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: row;
+}
+
+#span-versas {
+    padding: 12px 20px;
+}
+
+.match-details {}
+
+.heading-details {
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    color: #161616;
+    font-family: 'Poppins', sans-serif;
+}
+
+.paragarph-details {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #4D4D4D;
+}
