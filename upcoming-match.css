@@ -1,3 +1,4 @@
+/* 6 player card group design */
 .blog-banner-heading {
     margin: 53px 30px;
 }
@@ -10,8 +11,6 @@
 #span-versas {
     padding: 12px 20px;
 }
-
-.match-details {}
 
 .heading-details {
     font-weight: 600;
@@ -26,4 +25,9 @@
     font-size: 14px;
     text-align: center;
     color: #4D4D4D;
+}
+
+#blog-btn-upcoming-match {
+    background-color: #DD0000;
+    color: #FFFFFF;
 }

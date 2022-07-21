@@ -1,8 +1,10 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
+/* header section style */
 .top-container {
     width: 1321px;
     margin-top: 50px;
@@ -43,7 +45,7 @@ body {
 }
 
 .header-section-left-button {
-    width: 120px;
+    width: 130px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -262,6 +264,7 @@ body {
     padding-top: 130px;
 }
 
+/* footer navigation style */
 .footer-section-button {
     padding: 50px 0 130px 0;
     text-align: center;
@@ -275,6 +278,7 @@ body {
     padding: 0 15px;
 }
 
+/* footer social icon style */
 .footer-section-social-media-icon {
     padding: 0 0 130px 0;
     text-align: center;
@@ -285,6 +289,9 @@ body {
     color: #B9B9B9;
     padding: 0 15px;
 }
+
+/* --------------------------------------------------------------------------------------------------------                             media queries for mobile View 
+---------------------------------------------------------------------------*/
 
 /* media query for header section for mobile view  */
 
@@ -311,6 +318,7 @@ body {
         text-align: center;
         color: #FFFFFF;
         padding: 0 33px;
+        margin-right: 80px;
     }
 
     .header-section-left-paragraph {
@@ -320,10 +328,13 @@ body {
         text-align: center;
         color: rgba(255, 255, 255, 0.8);
         padding: 0 33px;
+        width: 258px;
+        height: 46px;
+        overflow: hidden;
     }
 
     .header-section-left-button {
-        width: 120px;
+        width: 130px;
         display: flex;
         flex-direction: row;
         gap: 10px;
@@ -331,7 +342,7 @@ body {
         border-radius: 5px;
         padding: 8px 12px;
         color: #FFFFFF;
-        margin-left: 50px;
+        margin-left: 80px;
     }
 
     .header-section-right {
@@ -485,5 +496,217 @@ body {
         font-weight: 500;
         color: #B9B9B9;
         padding: 15px 0;
+    }
+}
+
+
+/* --------------------------------------------------------------------------------------------------------                             media queries for tab View 
+---------------------------------------------------------------------------*/
+
+
+/* media query for header section for tab view  */
+
+@media only screen and (min-width: 689px) and (max-width: 834px) {
+    .top-container {
+        width: 100%;
+        margin: 44px 20px 0 21px;
+        overflow: hidden;
+    }
+
+    .header-section {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 21px;
+    }
+
+    .header-section-left {
+        margin: 28px 38px 0 38px;
+    }
+
+    .header-section-left-heading {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0 33px;
+        margin-right: 80px;
+    }
+
+    .header-section-left-paragraph {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.8);
+        padding: 0 33px;
+        width: 258px;
+        height: 46px;
+        overflow: hidden;
+    }
+
+    .header-section-left-button {
+        width: 130px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        background-color: #DD0000;
+        border-radius: 5px;
+        padding: 8px 12px;
+        color: #FFFFFF;
+        margin-left: 80px;
+    }
+
+    .header-section-right {
+        margin-left: 63px;
+        margin-right: 38px;
+    }
+
+}
+
+/* media query for main section for tab view  */
+
+@media only screen and (min-width: 689px) and (max-width: 834px) {
+    .middle-section-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin: 0 0;
+        overflow: hidden;
+    }
+
+    /* side bar css */
+    .main-side-navigation {
+        background: white;
+        border-radius: 10px;
+        width: 250px;
+        margin-bottom: 24px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+
+    .side-nav a {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        margin: 16px;
+        border: 1px solid lightgray;
+        font-size: 15px;
+    }
+
+    /* player card responsive section */
+    .middle-section-playercard {
+        grid-gap: 16px;
+        grid-template-columns: repeat(2, 312px);
+        margin: 0 30px 20px;
+    }
+
+    /* blog 1 css */
+    .main-multipal-player-column-one {
+        grid-column: 1 / 2;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
+    /* blog 2 css */
+    .main-multipal-player-column-two {
+        grid-column: 2/ 3;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
+    /* blog 3 css */
+    .main-multipal-player-column-three {
+        grid-column: 1 / 2;
+        grid-row: 2;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
+    /* blog 4 css */
+    .main-multipal-player-column-four {
+        grid-column: 2 / 3;
+        grid-row: 2;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
+    /* blog 5 css */
+    .main-multipal-player-column-five {
+        grid-column: 1 / 2;
+        grid-row: 3;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
+    /* blog 6 css */
+    .main-multipal-player-column-six {
+        grid-column: 2 / 3;
+        grid-row: 3;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
+    /* blog 7 css */
+    .main-multipal-player-column-seven {
+        grid-column: 1 / 1;
+        display: hidden;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
+    /* blog 8 css */
+    .main-multipal-player-column-eight {
+        grid-column: 1 / 1;
+        display: hidden;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
+    /* blog 9 css */
+    .main-multipal-player-column-nine {
+        grid-column: 1 / 1;
+        display: hidden;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+}
+
+/* media query for footer section for tab view  */
+
+@media only screen and (min-width: 689px) and (max-width: 834px) {
+    .main-footer {
+        width: 100%;
+        overflow: hidden;
+        margin: 0 0;
+    }
+
+    .footer-section-heading {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        margin-left: 162px;
+        margin-right: 162px;
+    }
+
+    .footer-header {
+        font-weight: 600;
+        font-size: 22px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 24px;
+    }
+
+    .footer-section-button {
+        display: flex;
+        flex-direction: row;
+        padding: 24px 14px 7px 14px;
+        text-align: center;
+    }
+
+    .footer-section-button a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        color: #B9B9B9;
+        padding: 15px 15px;
     }
 }
