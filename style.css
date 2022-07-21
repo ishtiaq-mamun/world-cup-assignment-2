@@ -244,6 +244,20 @@ body {
     border-radius: 10px;
 }
 
+.view-all-button {
+    border-radius: 10px;
+    background-color: #DD0000;
+    width: 100px;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    display: none;
+}
+
+.view-all-button a {
+    text-decoration: none;
+}
+
 /* footer section style */
 .main-footer {
     background-color: #161616;
@@ -458,6 +472,7 @@ body {
         border: 1px solid #E8E8E8;
         border-radius: 10px;
     }
+
 }
 
 /* media query for footer section for mobile view  */
@@ -586,12 +601,12 @@ body {
     }
 
     .side-nav a {
-        display: flex;
-        flex-direction: row;
         text-decoration: none;
         margin: 16px;
         border: 1px solid lightgray;
         font-size: 15px;
+        display: flex;
+        flex-direction: row;
     }
 
     /* player card responsive section */
@@ -669,6 +684,21 @@ body {
         display: hidden;
         border: 1px solid #E8E8E8;
         border-radius: 10px;
+    }
+
+    .view-all-button {
+        border-radius: 10px;
+        background-color: #DD0000;
+        width: 100px;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding: 10px 10px;
+        display: inline;
+        text-align: center;
+    }
+
+    .view-all-button a {
+        text-decoration: none;
     }
 }
 
